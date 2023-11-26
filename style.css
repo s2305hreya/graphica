@@ -237,4 +237,39 @@ img{
     text-align: center;
 }
 
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+   }
+   
+   .accordion-button {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+   }
+   
+   .accordion-button:hover {
+    background-color: #45a049;
+   }
+   
+   .accordion-content {
+    display: none;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+   }
+   
+   .accordion-button:focus + .accordion-content,
+   .accordion-button:active + .accordion-content {
+    max-height: 200px; /* Set this value to match the maximum height of your content */
+   }
   
