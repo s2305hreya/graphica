@@ -148,4 +148,93 @@ font-family: 'Nunito', sans-serif;
   .dropdown img{
     width:6px;
   }
+  .body{background-color: rgb(44, 43, 43);
+    margin: 10px;
+
+}
+.main{
+    display: flex;
+    gap: 100px;
+    color: white ;
+    font-size: small;
+}
+img{
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+.first{
+    border-right: 2px solid;
+}
+.second{
+    border-right: 2px solid;
+}
+.main2{
+    display: flex;
+    gap: 300px;
+    color: white;
+    
+}
+.fourth{
+    margin-left:200 px ;
+}
+.img1{
+    height: 30px;
+    width: 30px;
+}
+.img2{
+    height: 30px;
+    width: 30px;
+}
+.img3{
+    height: 30px;
+    width: 30px;
+}
+.img4{
+    height: 30px;
+    width: 30px;
+}
+.img5{
+    height: 50px;
+    width: 220px;
+}
+.img6{
+    height: 20px;
+    width: 20px;
+}
+.img7{
+    height: 20px;
+    width: 20px;
+}
+.last{
+    
+    color: white;
+}
+.img8{
+    height: 60px;
+    width: 150px;
+}
+.box{
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 100;
+    color: white;
+    
+
+}
+.img9{
+    height: 20px;
+    width: 20px;
+    
+    
+}
+.line{
+    text-align: center;
+}
+
   
